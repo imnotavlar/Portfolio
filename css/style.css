@@ -1,0 +1,146 @@
+/* 
+PALETAS DE CORES 
+
+--black: #02010aff;
+--oxford-blue: #04052eff;
+--federal-blue: #140152ff;
+--navy-blue: #22007cff;
+--duke-blue: #0d00a4ff; 
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Spline+Sans+Mono&display=swap');
+
+body {
+  background-color: rgb(2, 2, 15);
+}
+
+#footer{
+  margin-top: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.txtfooter {
+  color: antiquewhite;
+  text-align: center;
+  position: sticky;
+  bottom: 0%;
+}
+
+.nomefooter {
+  color: #0d00a4ff;
+}
+
+.logoya {
+  width: 120px;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  overflow: hidden;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+}
+
+.navlist li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.navlist a {
+  font-family: "Spline Sans Mono", monospace;
+  color: antiquewhite;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navlist a:hover{
+  color: #0d00a4ff;
+}
+
+h1 {
+  margin-top: 180px;
+  color: antiquewhite;
+  text-align: left;
+  align-items: left;
+  font-size: 75px;
+  font-family: "Alata", sans-serif;
+  display: flex;
+  margin-left: 180px;
+}
+
+h2 {
+  color: antiquewhite;
+  text-align: left;
+  align-items: left;
+  font-size: 45px;
+  margin-top: -50px;
+  font-family: "Alata", sans-serif;
+  margin-left: 180px;
+}
+
+.txt {
+  color: #0d00a4ff;
+  text-align: left;
+  align-items: left;
+  font-size: 45px;
+  margin-top: -40px;
+  font-family: "Alata", sans-serif;
+}
+
+.icons {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: 180px;
+}
+
+.icons a {
+color: antiquewhite;
+margin: 25px;
+margin-top: -5px;
+margin-bottom: -5px;
+font-size: 30px;
+transition: 0.3s;
+}
+
+.icons a:hover{
+  color: #0d00a4ff;
+}
+
+.happyface{
+  color: antiquewhite;
+  text-align: left;
+  align-items: left;
+  font-size: 45px;
+  margin-top: -40px;
+  font-family: "Alata", sans-serif;
+  margin-left: 5px;
+}
+
+.pfp{
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  box-shadow: 0px 0px 45px #0d00a4ff;
+  text-align: center;
+  float: right;
+  margin-right: 350px;
+}
+
+.pfp:hover{
+  animation: mover 2s ease-in;
+}
+
+@keyframes mover {
+  from { left: 0; }
+  to { left: 200px; }
+}
